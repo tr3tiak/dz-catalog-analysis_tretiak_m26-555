@@ -1,0 +1,17 @@
+[project]
+name = "dz-catalog-analysis-tretiak-m26-555"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "nikita", email = "a@a.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+dz-catalog-analysis-tretiak-m26-555 = "dz_catalog_analysis_tretiak_m26_555:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
